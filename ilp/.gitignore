@@ -1,7 +1,7 @@
 # C/C++ build outputs
 .build/
 build/
-output/
+output/*
 bins
 gens
 libs

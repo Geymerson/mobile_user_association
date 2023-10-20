@@ -15,5 +15,5 @@ handover.o: handover.cpp
 	g++ -c -o handover.o handover.cpp $(CPLEXFLAGS) $(CFLAGS)
 
 clean:
-	rm -f *.o
+	rm -f *.o *.run
 
