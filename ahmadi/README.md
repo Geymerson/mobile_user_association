@@ -2,7 +2,7 @@
 
 Model based on the Paper: Software-defined networking to improve handover in mobile edge networks (doi: https://doi.org/10.1002/dac.4510)
 
-Source code for the user association model that uses multi route simetry point selection to compute the best eNB available for handover and user association.
+Source code for the user association model that uses multi route symmetry point selection to compute the best eNB available for handover and user association.
 
 ### Basic Commands
 
