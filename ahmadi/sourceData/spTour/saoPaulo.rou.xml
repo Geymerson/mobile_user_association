@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on Sat Mar 27 11:10:08 2021 by Eclipse SUMO duarouter Version 1.8.0
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/duarouterConfiguration.xsd">
+
+    <input>
+        <net-file value="saoPaulo.net.xml"/>
+        <route-files value="saoPaulo.trips.xml"/>
+    </input>
+
+    <output>
+        <output-file value="saoPaulo.rou.xml"/>
+        <alternatives-output value="saoPaulo.rou.alt.xml"/>
+    </output>
+
+    <report>
+        <ignore-errors value="true"/>
+    </report>
+
+</configuration>
+-->
+
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+    <vehicle id="0" depart="0.00">
+        <route edges="197054862 196799729#0 196799729#1 72916497#0 72916497#1 456287381 251628555 217333505#0 217333505#1 251628553 425849973 8579093#0 8579093#1 234827311#1 234827311#2 252274190 46927935#0 46892577#0 46927933#0 46927933#1 134365461#0 134365461#1 134365461#2 134365461#3 134365461#4 134365461#5 647497032 425691399 425691400#0 425691400#1 779584030 779584030-AddedOffRampEdge 25619250 15260639#0 15260639#1 230395373#0 230395373#1 710195117 705005532#1 37916349#0 37916349#1"/>
+    </vehicle>
+</routes>
