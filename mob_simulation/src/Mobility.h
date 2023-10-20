@@ -39,7 +39,7 @@ public:
 
     bool isEndOfRoute();
 
-	//Compute distance between to positions
+	//Compute distance between two positions
 	double get_distance(XY p1, XY p2);
 
 private:
