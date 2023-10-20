@@ -4,15 +4,15 @@ CPLEXFLAGS=-O3 -m64 -O -fPIC -fexceptions -DNDEBUG -DIL_STD -I/opt/ibm/ILOG/CPLE
 
 CFLAGS=-std=c++11 -static-libstdc++ -static-libgcc -Wall
 
-all:handover.o
-	g++ handover.o -o handover.run $(CPLEXFLAGS) $(CFLAGS)
+all:ilp_model.o
+	g++ ilp_model.o -o ilp_model.run $(CPLEXFLAGS) $(CFLAGS)
 
 
 %.o: %.cpp %.hpp
 	g++ -c $< -o $@ $(CFLAGS)
 
-handover.o: handover.cpp
-	g++ -c -o handover.o handover.cpp $(CPLEXFLAGS) $(CFLAGS)
+ilp_model.o: ilp_model.cpp
+	g++ -c -o ilp_model.o ilp_model.cpp $(CPLEXFLAGS) $(CFLAGS)
 
 clean:
 	rm -f *.o *.run
