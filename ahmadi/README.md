@@ -10,7 +10,9 @@ Source code for the user association model that uses multi route simetry point s
 Compile the source code
 > make
 
-Run the model
+Run the model 
+
+(make sure the script is executable with the command **sudo chmod +x ./script.sh**)
 > ./script.sh
 
 Clean the directory
