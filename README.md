@@ -8,4 +8,4 @@ Source code for the user association models. This code is free to use, and for a
 
 **mob_simulation/** - contains our implementation source code for the ILS-VND heuristic model.
 
-**isntance_generator** - contains scripts for generating input intances to bench mark the ILP and the ILS-VND models.
+**isntance_generator** - contains scripts for generating input intances to benchmark the ILP and the ILS-VND models.
